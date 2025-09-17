@@ -9,7 +9,5 @@ return {
 
     -- Keybinding 2: <leader>fg to live grep search
     vim.api.nvim_set_keymap('n', '<leader>fg', "<cmd>lua require('telescope.builtin').live_grep()<CR>", { noremap = true, silent = true })
-
-    vim.api.nvim_set_keymap('n', '<leader>bl', "<cmd>lua require('telescope.builtin').git_bcommits()<CR>", { noremap = true, silent = true })
   end
 }
