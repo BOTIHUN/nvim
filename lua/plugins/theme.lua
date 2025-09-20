@@ -1,9 +1,10 @@
 return {
-  "ellisonleao/gruvbox.nvim",
+  "folke/tokyonight.nvim",
+  lazy = false,
   priority = 1000 ,
   config = true,
   opts = {},
   config = function()
-    vim.cmd([[colorscheme gruvbox]])
+    vim.cmd([[colorscheme tokyonight-storm]])
   end
 }
