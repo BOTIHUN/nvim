@@ -11,7 +11,6 @@ return {
       vim.keymap.set("n", "<leader>bf", function()
         require("gitsigns").blame()
       end, { desc = "Git blame file" })
-
     end,
   },
 }

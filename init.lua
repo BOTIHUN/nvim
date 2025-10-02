@@ -1,3 +1,6 @@
 require("config.lazy")
 require("config.options")
 require("config.mappings")
+vim.cmd([[hi Normal guibg=NONE ctermbg=NONE]])
+vim.cmd([[hi NormalNC guibg=NONE ctermbg=NONE]])
+vim.cmd([[hi NormalFloat guibg=NONE ctermbg=NONE]])
